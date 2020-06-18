@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage    = "https://github.com/IBM-Swift/BlueSocket"
   s.license     = { :type => "Apache License, Version 2.0" }
   s.author     = "IBM"
-  s.module_name  = 'Socket'
+  s.module_name  = 'BlueSocket'
 
   s.requires_arc = true
   s.osx.deployment_target = "10.11"
