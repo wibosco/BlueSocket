@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8C5FEE8F1FC319F7002F4CAA"
+               BlueprintIdentifier = "8CC36DF61C4EA1BE00BAA659"
                BuildableName = "Socket.framework"
-               BlueprintName = "Socket-tvOS"
+               BlueprintName = "BlueSocket-iOS"
                ReferencedContainer = "container:BlueSocket.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,9 +43,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8C5FEE8F1FC319F7002F4CAA"
+            BlueprintIdentifier = "8CC36DF61C4EA1BE00BAA659"
             BuildableName = "Socket.framework"
-            BlueprintName = "Socket-tvOS"
+            BlueprintName = "BlueSocket-iOS"
             ReferencedContainer = "container:BlueSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -59,9 +59,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8C5FEE8F1FC319F7002F4CAA"
+            BlueprintIdentifier = "8CC36DF61C4EA1BE00BAA659"
             BuildableName = "Socket.framework"
-            BlueprintName = "Socket-tvOS"
+            BlueprintName = "BlueSocket-iOS"
             ReferencedContainer = "container:BlueSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

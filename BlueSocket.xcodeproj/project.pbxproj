@@ -42,14 +42,14 @@
 		595218001F61E34E001A94A2 /* SocketProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketProtocols.swift; path = Socket/SocketProtocols.swift; sourceTree = "<group>"; };
 		595218091F61E84E001A94A2 /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Socket.h; path = Socket/Socket.h; sourceTree = "<group>"; };
 		5952180C1F61E8A2001A94A2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Socket/Info.plist; sourceTree = "<group>"; };
-		8C0F4BF61C4E84CC008B2B0A /* Socket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Socket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0F4BF61C4E84CC008B2B0A /* BlueSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlueSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0F4C081C4E866E008B2B0A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		8C46DCEA21834123003FAD91 /* libSocket.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libSocket.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C51FD581E7C8C8A00C2FDA6 /* BlueSocket.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BlueSocket.podspec; sourceTree = "<group>"; };
-		8C5FEE9B1FC319F7002F4CAA /* Socket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Socket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5FEE9B1FC319F7002F4CAA /* BlueSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlueSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8540B01E9FC14E00E41C1D /* VerifyLinuxTestCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VerifyLinuxTestCount.swift; path = Tests/SocketTests/VerifyLinuxTestCount.swift; sourceTree = "<group>"; };
-		8CA9B1631C98A00400E607FB /* SocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CC36E021C4EA1BE00BAA659 /* Socket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Socket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA9B1631C98A00400E607FB /* BlueSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC36E021C4EA1BE00BAA659 /* BlueSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlueSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC36E041C4EA34700BAA659 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8CC721761D4BCA9400F5FD19 /* SocketTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketTests.swift; path = Tests/SocketTests/SocketTests.swift; sourceTree = "<group>"; };
 		8CC721781D4BCAA600F5FD19 /* LinuxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinuxMain.swift; path = Tests/LinuxMain.swift; sourceTree = "<group>"; };
@@ -108,10 +108,10 @@
 		8C0F4BF71C4E84CC008B2B0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C0F4BF61C4E84CC008B2B0A /* Socket.framework */,
-				8CC36E021C4EA1BE00BAA659 /* Socket.framework */,
-				8CA9B1631C98A00400E607FB /* SocketTests.xctest */,
-				8C5FEE9B1FC319F7002F4CAA /* Socket.framework */,
+				8C0F4BF61C4E84CC008B2B0A /* BlueSocket.framework */,
+				8CC36E021C4EA1BE00BAA659 /* BlueSocket.framework */,
+				8CA9B1631C98A00400E607FB /* BlueSocketTests.xctest */,
+				8C5FEE9B1FC319F7002F4CAA /* BlueSocket.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,9 +193,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8C0F4BF51C4E84CC008B2B0A /* Socket */ = {
+		8C0F4BF51C4E84CC008B2B0A /* BlueSocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C0F4BFE1C4E84CC008B2B0A /* Build configuration list for PBXNativeTarget "Socket" */;
+			buildConfigurationList = 8C0F4BFE1C4E84CC008B2B0A /* Build configuration list for PBXNativeTarget "BlueSocket" */;
 			buildPhases = (
 				8C0F4BF11C4E84CC008B2B0A /* Sources */,
 				8C0F4BF21C4E84CC008B2B0A /* Frameworks */,
@@ -206,14 +206,14 @@
 			);
 			dependencies = (
 			);
-			name = Socket;
+			name = BlueSocket;
 			productName = ETSocket;
-			productReference = 8C0F4BF61C4E84CC008B2B0A /* Socket.framework */;
+			productReference = 8C0F4BF61C4E84CC008B2B0A /* BlueSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8C5FEE8F1FC319F7002F4CAA /* Socket-tvOS */ = {
+		8C5FEE8F1FC319F7002F4CAA /* BlueSocket-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C5FEE981FC319F7002F4CAA /* Build configuration list for PBXNativeTarget "Socket-tvOS" */;
+			buildConfigurationList = 8C5FEE981FC319F7002F4CAA /* Build configuration list for PBXNativeTarget "BlueSocket-tvOS" */;
 			buildPhases = (
 				8C5FEE901FC319F7002F4CAA /* Sources */,
 				8C5FEE941FC319F7002F4CAA /* Frameworks */,
@@ -224,14 +224,14 @@
 			);
 			dependencies = (
 			);
-			name = "Socket-tvOS";
+			name = "BlueSocket-tvOS";
 			productName = ETSocket;
-			productReference = 8C5FEE9B1FC319F7002F4CAA /* Socket.framework */;
+			productReference = 8C5FEE9B1FC319F7002F4CAA /* BlueSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8CA9B1621C98A00400E607FB /* SocketTests */ = {
+		8CA9B1621C98A00400E607FB /* BlueSocketTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CA9B16D1C98A00400E607FB /* Build configuration list for PBXNativeTarget "SocketTests" */;
+			buildConfigurationList = 8CA9B16D1C98A00400E607FB /* Build configuration list for PBXNativeTarget "BlueSocketTests" */;
 			buildPhases = (
 				8CA9B15F1C98A00400E607FB /* Sources */,
 				8CA9B1601C98A00400E607FB /* Frameworks */,
@@ -242,14 +242,14 @@
 			dependencies = (
 				8CA9B16A1C98A00400E607FB /* PBXTargetDependency */,
 			);
-			name = SocketTests;
+			name = BlueSocketTests;
 			productName = BlueSocketTests;
-			productReference = 8CA9B1631C98A00400E607FB /* SocketTests.xctest */;
+			productReference = 8CA9B1631C98A00400E607FB /* BlueSocketTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8CC36DF61C4EA1BE00BAA659 /* Socket-iOS */ = {
+		8CC36DF61C4EA1BE00BAA659 /* BlueSocket-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CC36DFF1C4EA1BE00BAA659 /* Build configuration list for PBXNativeTarget "Socket-iOS" */;
+			buildConfigurationList = 8CC36DFF1C4EA1BE00BAA659 /* Build configuration list for PBXNativeTarget "BlueSocket-iOS" */;
 			buildPhases = (
 				8CC36DF71C4EA1BE00BAA659 /* Sources */,
 				8CC36DFB1C4EA1BE00BAA659 /* Frameworks */,
@@ -260,9 +260,9 @@
 			);
 			dependencies = (
 			);
-			name = "Socket-iOS";
+			name = "BlueSocket-iOS";
 			productName = ETSocket;
-			productReference = 8CC36E021C4EA1BE00BAA659 /* Socket.framework */;
+			productReference = 8CC36E021C4EA1BE00BAA659 /* BlueSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -305,10 +305,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C0F4BF51C4E84CC008B2B0A /* Socket */,
-				8CC36DF61C4EA1BE00BAA659 /* Socket-iOS */,
-				8C5FEE8F1FC319F7002F4CAA /* Socket-tvOS */,
-				8CA9B1621C98A00400E607FB /* SocketTests */,
+				8C0F4BF51C4E84CC008B2B0A /* BlueSocket */,
+				8CC36DF61C4EA1BE00BAA659 /* BlueSocket-iOS */,
+				8C5FEE8F1FC319F7002F4CAA /* BlueSocket-tvOS */,
+				8CA9B1621C98A00400E607FB /* BlueSocketTests */,
 			);
 		};
 /* End PBXProject section */
@@ -391,7 +391,7 @@
 /* Begin PBXTargetDependency section */
 		8CA9B16A1C98A00400E607FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8C0F4BF51C4E84CC008B2B0A /* Socket */;
+			target = 8C0F4BF51C4E84CC008B2B0A /* BlueSocket */;
 			targetProxy = 8CA9B1691C98A00400E607FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -525,7 +525,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.oss.Socket;
-				PRODUCT_NAME = Socket;
+				PRODUCT_NAME = BlueSocket;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -548,7 +548,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.oss.Socket;
-				PRODUCT_NAME = Socket;
+				PRODUCT_NAME = BlueSocket;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
@@ -573,7 +573,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.oss.Socket;
-				PRODUCT_NAME = Socket;
+				PRODUCT_NAME = BlueSocket;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -599,7 +599,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.oss.Socket;
-				PRODUCT_NAME = Socket;
+				PRODUCT_NAME = BlueSocket;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -651,7 +651,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.oss.Socket;
-				PRODUCT_NAME = Socket;
+				PRODUCT_NAME = BlueSocket;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -676,7 +676,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.oss.Socket;
-				PRODUCT_NAME = Socket;
+				PRODUCT_NAME = BlueSocket;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -696,7 +696,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C0F4BFE1C4E84CC008B2B0A /* Build configuration list for PBXNativeTarget "Socket" */ = {
+		8C0F4BFE1C4E84CC008B2B0A /* Build configuration list for PBXNativeTarget "BlueSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C0F4BFF1C4E84CC008B2B0A /* Debug */,
@@ -705,7 +705,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C5FEE981FC319F7002F4CAA /* Build configuration list for PBXNativeTarget "Socket-tvOS" */ = {
+		8C5FEE981FC319F7002F4CAA /* Build configuration list for PBXNativeTarget "BlueSocket-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C5FEE991FC319F7002F4CAA /* Debug */,
@@ -714,7 +714,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CA9B16D1C98A00400E607FB /* Build configuration list for PBXNativeTarget "SocketTests" */ = {
+		8CA9B16D1C98A00400E607FB /* Build configuration list for PBXNativeTarget "BlueSocketTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CA9B16B1C98A00400E607FB /* Debug */,
@@ -723,7 +723,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CC36DFF1C4EA1BE00BAA659 /* Build configuration list for PBXNativeTarget "Socket-iOS" */ = {
+		8CC36DFF1C4EA1BE00BAA659 /* Build configuration list for PBXNativeTarget "BlueSocket-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CC36E001C4EA1BE00BAA659 /* Debug */,

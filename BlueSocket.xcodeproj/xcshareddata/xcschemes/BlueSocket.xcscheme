@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8CC36DF61C4EA1BE00BAA659"
+               BlueprintIdentifier = "8C0F4BF51C4E84CC008B2B0A"
                BuildableName = "Socket.framework"
-               BlueprintName = "Socket-iOS"
+               BlueprintName = "BlueSocket"
                ReferencedContainer = "container:BlueSocket.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,7 +27,26 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8C0F4BF51C4E84CC008B2B0A"
+            BuildableName = "Socket.framework"
+            BlueprintName = "BlueSocket"
+            ReferencedContainer = "container:BlueSocket.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8CA9B1621C98A00400E607FB"
+               BuildableName = "BlueSocketTests.xctest"
+               BlueprintName = "BlueSocketTests"
+               ReferencedContainer = "container:BlueSocket.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -43,9 +62,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8CC36DF61C4EA1BE00BAA659"
+            BlueprintIdentifier = "8C0F4BF51C4E84CC008B2B0A"
             BuildableName = "Socket.framework"
-            BlueprintName = "Socket-iOS"
+            BlueprintName = "BlueSocket"
             ReferencedContainer = "container:BlueSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -59,9 +78,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8CC36DF61C4EA1BE00BAA659"
+            BlueprintIdentifier = "8C0F4BF51C4E84CC008B2B0A"
             BuildableName = "Socket.framework"
-            BlueprintName = "Socket-iOS"
+            BlueprintName = "BlueSocket"
             ReferencedContainer = "container:BlueSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
